@@ -28,6 +28,9 @@ const account = {
         accountBalance = totalIncome - totalExpenses;
 
         return `${this.name} has a balance of $${accountBalance}. $${totalIncome} in income. $${totalExpenses} in expenses.`
+    },
+    removeExpense: function(expenseName) {
+
     }
 }
 
@@ -35,6 +38,9 @@ const account = {
 // Expense -> description, amount
 // addExpense -> description, amount
 // getAccountSummary -> total up all expenses -> Andrew Mead gas $1250 in expenses
+
+
+
 
 account.addExpense('Rent',950)
 account.addExpense('Coffee',2)
